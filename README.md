@@ -138,7 +138,7 @@ end
 ```
 
 While we can still create new students with our updated class definition, it's
-not particularly DRY &mdash; both the `Student` and `User` classes have an
+not particularly DRY — both the `Student` and `User` classes have an
 `attr_accessor` defined for the `@name` instance variable, and both are
 responsible for setting the `@name` instance variable when a new instance is
 created.
@@ -186,7 +186,7 @@ oneil = Student.new("O'neil", 10)
 ```
 
 Just like in the previous example, `super` is used to call a method on the
-superclass with the same name as the subclass &mdash; the only difference is
+superclass with the same name as the subclass — the only difference is
 that this time we are passing in arguments that are required by the method
 defined in the superclass.
 
